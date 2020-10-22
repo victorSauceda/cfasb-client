@@ -1,6 +1,6 @@
 ---
 path: '/housing'
-cover: '../2018-10-17/finance.jpg'
+cover: '../2018-10-17/sbhousing.jpg'
 date: '2018-10-18'
 title: 'Housing'
 tags: ['gatsby', 'other']

@@ -1,6 +1,6 @@
 ---
 path: '/transportation'
-cover: './finance.jpg'
+cover: './sbhousing.jpg'
 date: '2018-10-17'
 title: 'Transportation'
 tags: ['gatsby', 'news', 'other']
