@@ -1,6 +1,6 @@
 ---
 path: '/food'
-cover: './employment.jpg'
+cover: './sbfood.jpg'
 date: '2018-10-15'
 title: 'Food'
 published: true
