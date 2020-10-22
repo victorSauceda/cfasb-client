@@ -10,14 +10,14 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Blog Page'} />
-      <Header title="Blog Page">Gatsby Tutorial Starter</Header>
+      <Header title="Blog Page">Santa Barbara Re-entry Guide</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}
           cover={node.frontmatter.cover.childImageSharp.fluid}
           path={node.frontmatter.path}
           title={node.frontmatter.title}
-          date={node.frontmatter.date}
+          // date={node.frontmatter.date}
           tags={node.frontmatter.tags}
           excerpt={node.excerpt}
         />
@@ -39,7 +39,7 @@ Blog.propTypes = {
               cover: PropTypes.object.isRequired,
               path: PropTypes.string.isRequired,
               title: PropTypes.string.isRequired,
-              date: PropTypes.string.isRequired,
+              // date: PropTypes.string.isRequired,
               tags: PropTypes.array,
             }),
           }),
@@ -60,7 +60,6 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "MM.DD.YYYY")
             cover {
               childImageSharp {
                 fluid(

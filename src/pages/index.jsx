@@ -40,7 +40,7 @@ const Index = ({ data }) => {
               cover={cover.childImageSharp.fluid}
               path={path}
               title={title}
-              date={date}
+              // date={date}
               excerpt={excerpt}
             />
           );
@@ -63,7 +63,7 @@ Index.propTypes = {
               cover: PropTypes.object.isRequired,
               path: PropTypes.string.isRequired,
               title: PropTypes.string.isRequired,
-              date: PropTypes.string.isRequired,
+              // date: PropTypes.string.isRequired,
               tags: PropTypes.array,
             }),
           }),
@@ -87,7 +87,6 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "MM.DD.YYYY")
             cover {
               childImageSharp {
                 fluid(
