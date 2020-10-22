@@ -16,18 +16,15 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: 'gatsby-remark-normalize-paths',
             options: {
-              maxWidth: 1050,
-              quality: 90,
-              linkImagesToOriginal: true,
+              pathFields: ['cover'],
             },
           },
-          'gatsby-remark-prismjs',
         ],
       },
     },
