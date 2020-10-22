@@ -59,7 +59,7 @@ const Layout = ({ children }) => (
       />
       <SEO />
 
-      <NavBar />
+      <NavBar style={{ marginBottom: '2rem' }} />
 
       {children}
       <Footer />
