@@ -1,6 +1,6 @@
 ---
 path: '/supportive-services'
-cover: './speed.jpg'
+cover: './sbsupportservice.png'
 date: '2018-10-16'
 title: 'Supportive Services'
 published: true
