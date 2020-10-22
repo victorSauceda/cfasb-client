@@ -12,7 +12,7 @@ module.exports = {
   // JSONLD / Manifest
   favicon: 'static/logo/cosb.png', // Used for manifest favicon generation
   shortName: 'GatsbyTut', // shortname for manifest. MUST be shorter than 12 characters
-  author: 'Victor', // Author for schemaORGJSONLD
+  author: 'Tim & Victor', // Author for schemaORGJSONLD
   themeColor: '#3e7bf2',
   backgroundColor: '#d3e0ff',
   twitter: '@csb', // Twitter Username
