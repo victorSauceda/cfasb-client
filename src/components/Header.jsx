@@ -49,7 +49,7 @@ const Header = ({ children, title, date, cover }) => (
     <Img fluid={cover || {} || [] || ''} />
     <Text>
       <h1>{title}</h1>
-      <h3>{date}</h3>
+      {/* <h3>{date}</h3> */}
 
       {children && <Subtitle>{children}</Subtitle>}
     </Text>
@@ -61,7 +61,7 @@ export default Header;
 Header.propTypes = {
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.bool]),
   cover: PropTypes.oneOfType([PropTypes.object, PropTypes.bool]),
-  date: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
+  // date: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   title: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object,
@@ -72,6 +72,6 @@ Header.propTypes = {
 Header.defaultProps = {
   children: false,
   cover: false,
-  date: false,
+  // date: false,
   title: false,
 };
