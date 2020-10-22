@@ -25,7 +25,7 @@ const Wrapper = styled.header`
 const Text = styled.div`
   color: ${props => props.theme.colors.white.base};
   z-index: 0;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
