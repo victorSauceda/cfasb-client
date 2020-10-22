@@ -1,6 +1,6 @@
 ---
 path: '/employment'
-cover: '../2018-10-15/blocks.jpg'
+cover: '../2018-10-15/blocks.jpeg'
 date: '2018-10-19'
 title: 'Employment'
 tags: ['employment', 're-entry', 'santa barbara']

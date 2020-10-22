@@ -1,6 +1,6 @@
 ---
 path: '/food'
-cover: './blocks.jpg'
+cover: './blocks.jpeg'
 date: '2018-10-15'
 title: 'Food'
 published: true
