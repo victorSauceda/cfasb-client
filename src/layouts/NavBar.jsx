@@ -28,7 +28,7 @@ const Nav = styled.nav`
 `;
 
 const NavBar = () => (
-  <Headroom>
+  <Headroom calcHeightOnResize>
     <StyledLink to="/">
       <img style={{ width: '10rem' }} src={logo} alt="Santa Barbara Logo" />
     </StyledLink>
