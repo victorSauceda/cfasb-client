@@ -1,6 +1,6 @@
 ---
 path: '/transportation'
-cover: './sbtransport.jpeg'
+cover: '../2018-10-17/sbtransport.jpeg'
 date: '2018-10-17'
 title: 'Transportation'
 tags: ['gatsby', 'news', 'other']
