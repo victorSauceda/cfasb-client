@@ -58,7 +58,9 @@ const Layout = ({ children }) => (
         `}
       />
       <SEO />
-      <NavBar />
+      <div style={{ fixed }}>
+        <NavBar />
+      </div>
       {children}
       <Footer />
     </Fragment>
