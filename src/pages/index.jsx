@@ -24,8 +24,12 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <Helmet title={'Home Page'} />
-      <Header title="Home Page">Gatsby Tutorial Starter</Header>
+      <Helmet title={'Santa Barbara Re-entry Guide'} />
+      <Header title="Santa Barbara Re-entry Guide">
+        Every justice impacted Santa Barbara resident will have access to
+        resources to help prevent recidivism and successfully return to society
+        after jail or prison
+      </Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
