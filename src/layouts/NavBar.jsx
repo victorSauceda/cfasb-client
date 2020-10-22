@@ -30,7 +30,7 @@ const Nav = styled.nav`
 const NavBar = () => (
   <Headroom calcHeightOnResize disableInlineStyles>
     <StyledLink to="/">
-      <img style={{ width: '4rem' }} src={logo} alt="Santa Barbara Logo" />
+      <img style={{ width: '15rem' }} src={logo} alt="Santa Barbara Logo" />
     </StyledLink>
     <Nav>
       <Link to="/">Home</Link>
