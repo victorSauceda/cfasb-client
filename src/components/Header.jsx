@@ -25,8 +25,8 @@ const Wrapper = styled.header`
 const Text = styled.div`
   color: ${props => props.theme.colors.white.base};
   z-index: 0;
-  position: fixed;
-  top: 50%;
+  position: sticky;
+  top: 0px;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
