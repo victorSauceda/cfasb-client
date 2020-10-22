@@ -1,8 +1,9 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-  title: 'Gatsby Tutorial Starter', // Navigation and Site Title
-  titleAlt: 'Gatsby Tutorial Starter', // Title for JSONLD
-  description: 'A Gatsby V2 Starter Template Built with a Step By Step Guide',
+  title: 'Santa Barbara Re-entry Guide', // Navigation and Site Title
+  titleAlt: 'Santa Barbara Re-entry', // Title for JSONLD
+  description:
+    'Every justice impacted Santa Barbara resident will have access to resources to help prevent recidivism and successfully return to society after jail or prison',
   url: 'https://gatsby-tutorial-starter.netlify.com', // Domain of your site. No trailing slash!
   siteUrl: 'https://gatsby-tutorial-starter.netlify.com', // url + pathPrefix
   siteLanguage: 'en', // Language Tag on <html> element
