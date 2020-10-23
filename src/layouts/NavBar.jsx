@@ -28,16 +28,18 @@ const Nav = styled.nav`
 `;
 
 const NavBar = () => (
-  <Headroom style={{ marginBottom: '2rem' }}>
-    <StyledLink to="/">
-      <img style={{ width: '10rem' }} src={logo} alt="Santa Barbara Logo" />
-    </StyledLink>
-    <Nav>
-      <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
-    </Nav>
-  </Headroom>
+  <div>
+    <Headroom style={{ marginBottom: '2rem' }}>
+      <StyledLink to="/">
+        <img style={{ width: '10rem' }} src={logo} alt="Santa Barbara Logo" />
+      </StyledLink>
+      <Nav>
+        <Link to="/">Home</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="/about">About</Link>
+      </Nav>
+    </Headroom>
+  </div>
 );
 
 export default NavBar;
