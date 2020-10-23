@@ -46,7 +46,7 @@ const StyledLink = styled(Link)`
   border-radius: ${props => props.theme.borderRadius.default};
   &:after {
     content: '';
-    position: absolute;
+    position: fixed;
     display: block;
     width: 100%;
     height: 100%;
