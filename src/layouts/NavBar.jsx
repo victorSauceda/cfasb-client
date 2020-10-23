@@ -28,7 +28,7 @@ const Nav = styled.nav`
 `;
 
 const NavBar = () => (
-  <div style={{ zIndex: '100', position: 'fixed', top: '0' }}>
+  <div>
     {/* <Headroom style={{ marginBottom: '2rem' }}> */}
     <StyledLink style={{ position: 'fixed' }} to="/">
       <img
