@@ -17,6 +17,7 @@ const Nav = styled.nav`
   font-weight: 500;
   font-size: 1.1rem;
   align-items: center;
+  z-index: 11111;
 `;
 
 const NavBar = () => (
