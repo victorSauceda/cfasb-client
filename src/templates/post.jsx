@@ -35,7 +35,7 @@ const Post = ({ data, pageContext }) => {
         article
       />
       <Header
-        style={{ position: 'fixed', top: '0' }}
+        style={{ position: 'fixed', top: '0', zIndex: '100000' }}
         title={title}
         cover={image}
       />
