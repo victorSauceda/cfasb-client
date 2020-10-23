@@ -29,20 +29,20 @@ const Nav = styled.nav`
 
 const NavBar = () => (
   <div style={{ zIndex: '100', position: 'fixed', top: '0' }}>
-    <Headroom style={{ marginBottom: '2rem' }}>
-      <StyledLink style={{ position: 'fixed' }} to="/">
-        <img
-          style={{ width: '10rem', zIndex: '10' }}
-          src={logo}
-          alt="Santa Barbara Logo"
-        />
-      </StyledLink>
-      <Nav>
-        <Link to="/">Home</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/about">About</Link>
-      </Nav>
-    </Headroom>
+    {/* <Headroom style={{ marginBottom: '2rem' }}> */}
+    <StyledLink style={{ position: 'fixed' }} to="/">
+      <img
+        style={{ width: '10rem', zIndex: '10' }}
+        src={logo}
+        alt="Santa Barbara Logo"
+      />
+    </StyledLink>
+    <Nav>
+      <Link to="/">Home</Link>
+      <Link to="/blog">Blog</Link>
+      <Link to="/about">About</Link>
+    </Nav>
+    {/* </Headroom> */}
   </div>
 );
 
