@@ -30,7 +30,7 @@ const Nav = styled.nav`
 const NavBar = () => (
   <div style={{ position: 'fixed', top: '0' }}>
     <Headroom style={{ marginBottom: '2rem' }}>
-      <StyledLink to="/">
+      <StyledLink style={{ position: 'fixed' }} to="/">
         <img style={{ width: '10rem' }} src={logo} alt="Santa Barbara Logo" />
       </StyledLink>
       <Nav>
