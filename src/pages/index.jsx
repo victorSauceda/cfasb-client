@@ -23,7 +23,7 @@ const PostWrapper = styled.div`
 const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
-    <Layout>
+    <Layout style={{ fixed: 'fixed', top: '0', zIndex: '1111' }}>
       <Helmet title={'Santa Barbara Re-entry Guide'} />
       <Header title="Santa Barbara Re-entry Guide">
         Every justice impacted Santa Barbara resident will have access to
