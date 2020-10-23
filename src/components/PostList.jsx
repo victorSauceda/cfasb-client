@@ -7,7 +7,7 @@ import theme from '../../config/theme';
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
-  position: fixed;
+  position: relative;
   z-index: 100;
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
@@ -16,6 +16,11 @@ const Wrapper = styled.article`
   flex-basis: calc(99.9% * 1 / 3 - 2.5rem);
   max-width: calc(99.9% * 1 / 3 - 2.5rem);
   width: calc(99.9% * 1 / 3 - 2.5rem);
+
+  &:hover {
+    box-shadow: ${props => props.theme.shadow.feature.small.hover};
+    transform: scale(1.04);
+  }
 
   @media (max-width: 1000px) {
     flex-basis: calc(99.9% * 1 / 2 - 1rem);
@@ -33,7 +38,7 @@ const Wrapper = styled.article`
 `;
 
 const StyledLink = styled(Link)`
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -46,7 +51,7 @@ const StyledLink = styled(Link)`
   border-radius: ${props => props.theme.borderRadius.default};
   &:after {
     content: '';
-    position: fixed;
+    position: absolute;
     display: block;
     width: 100%;
     height: 100%;
@@ -68,7 +73,7 @@ const StyledLink = styled(Link)`
 `;
 
 const Image = styled.div`
-  position: fixed;
+  position: absolute;
   top: 0;
   overflow: hidden;
   right: 0;
@@ -91,7 +96,7 @@ const Image = styled.div`
 const Info = styled.div`
   color: ${props => props.theme.colors.white.light};
   margin: 0 1rem 1.25rem 1.25rem;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
 `;
