@@ -34,7 +34,11 @@ const Post = ({ data, pageContext }) => {
         pathname={path}
         article
       />
-      <Header title={title} cover={image} />
+      <Header
+        style={{ position: 'fixed', top: '0' }}
+        title={title}
+        cover={image}
+      />
       <Container>
         <Content input={html} />
         <TagsBlock list={tags || []} />
