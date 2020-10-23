@@ -57,8 +57,7 @@ const prism = css`
     background: rgba(52, 152, 219, 0.2);
     color: #2e3246;
     bottom: 2px;
-    position: fixed;
-    top: 0px;
+    position: relative;
   }
   .token.operator {
     color: #bc78d7;
