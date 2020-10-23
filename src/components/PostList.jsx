@@ -7,7 +7,7 @@ import theme from '../../config/theme';
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
-  position: relative;
+  position: fixed;
   z-index: 100;
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
@@ -33,7 +33,7 @@ const Wrapper = styled.article`
 `;
 
 const StyledLink = styled(Link)`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -68,7 +68,7 @@ const StyledLink = styled(Link)`
 `;
 
 const Image = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   overflow: hidden;
   right: 0;
@@ -91,7 +91,7 @@ const Image = styled.div`
 const Info = styled.div`
   color: ${props => props.theme.colors.white.light};
   margin: 0 1rem 1.25rem 1.25rem;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 `;
