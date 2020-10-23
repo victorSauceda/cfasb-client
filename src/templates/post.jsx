@@ -26,7 +26,7 @@ const Post = ({ data, pageContext }) => {
   const image = frontmatter.cover.childImageSharp.fluid;
 
   return (
-    <Layout>
+    <Layout style={{zIndex="10000000"}}>
       <SEO
         title={title}
         description={description || excerpt || ' '}
