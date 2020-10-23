@@ -53,8 +53,6 @@ const Layout = ({ children }) => (
           h1 {
             font-family: ${theme.fontFamily.heading};
           }
-
-          ${headroom}
         `}
       />
       <SEO />
