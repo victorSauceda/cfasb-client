@@ -20,10 +20,6 @@ const Image = styled.div`
   img {
     border-radius: ${props => props.theme.borderRadius.default};
   }
-  &:hover {
-    box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    transform: scale(1.04);
-  }
   a {
     position: absolute;
     top: 0;

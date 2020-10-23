@@ -17,11 +17,6 @@ const Wrapper = styled.article`
   max-width: calc(99.9% * 1 / 3 - 2.5rem);
   width: calc(99.9% * 1 / 3 - 2.5rem);
 
-  &:hover {
-    box-shadow: ${props => props.theme.shadow.feature.small.hover};
-    transform: scale(1.04);
-  }
-
   @media (max-width: 1000px) {
     flex-basis: calc(99.9% * 1 / 2 - 1rem);
     max-width: calc(99.9% * 1 / 2 - 1rem);
