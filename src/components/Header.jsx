@@ -26,9 +26,7 @@ const Text = styled.div`
   color: ${props => props.theme.colors.white.base};
   z-index: 0;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
