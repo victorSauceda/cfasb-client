@@ -18,14 +18,17 @@ const Wrapper = styled.header`
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     height: 275px;
   }
-  position: fixed;
+  position: relative;
   overflow: hidden;
 `;
 
 const Text = styled.div`
   color: ${props => props.theme.colors.white.base};
-  position: fixed;
-  top: 0;
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   text-align: center;
